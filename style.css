@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+}
+
+
+
+
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    width:100%;
+}
+
+ul {
+    padding: 5px;
+}
+
+li {
+    line-height: 2.5; /* Межстрочное расстояние */
+   }
+
+li {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+h1 {
+    position: ;
+    text-align: center ;
+}
+
+.wrapper {
+    text-align: left;
+}
+
+/*
+li {
+    display: inline-block;
+}*/
+
+
+
+
