@@ -4,26 +4,64 @@ body {
 }
 
 
-
-
-
-table, th, td {
-    border: 1px solid black;
-    text-align: center;
-}
-table {
-    width:100%;
-}
-
-ul {
-    padding: 5px;
-}
-
 a {
 
     text-decoration: none;
     color: blue;
 }
+
+
+/*table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+table {
+    width:100%;
+}*/
+
+ul {
+    padding: 5px;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 4px;
+    text-align: center;
+}
+
+
+
+table thead tr {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: black;
+    color: red;
+
+}
+
+table thead tr td {
+    border-radius: 4px 4px 0 0;
+    background: #2e82c3;
+}
+
+table tbody tr td {
+    border: 1px solid #2e82c3;
+    border-radius: 4px;
+    background: #cbdfef;
+}
+
+table tbody tr td:hover {
+    background: #a2c3dd;
+    transition-duration: 0.2s;
+}
+
+
+
+
 
 li {
     line-height: 2.5; /* Межстрочное расстояние */
@@ -48,6 +86,8 @@ h1 {
 li {
     display: inline-block;
 }*/
+
+
 
 
 
