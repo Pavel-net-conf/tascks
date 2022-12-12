@@ -9,6 +9,7 @@ body {
 
 table, th, td {
     border: 1px solid black;
+    text-align: center;
 }
 table {
     width:100%;
@@ -16,6 +17,12 @@ table {
 
 ul {
     padding: 5px;
+}
+
+a {
+
+    text-decoration: none;
+    color: blue;
 }
 
 li {
