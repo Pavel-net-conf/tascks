@@ -34,72 +34,11 @@
 
 
 
-
-
-
-          <!-- <tr>
-            <th>ГЦФ железа</th>
-            <th>ГЦФ кобальта</th>
-            <th>ГЦФ никеля</th>
-            <th>ГЦФ цинка</th>
-            <th>ГЦФ меди</th>
-            <th>ГЦФ марганца</th>
-            <th>ГЦФ хрома</th>
-            <th>ГЦФ кобальта</th>
-            <th>ГЦФ никеля</th>
-            <th> Плёнки ГЦФ</th>
-            <th> Прессование</th>
-            <th> Сенсорные свойства</th>
-            <th> Б </th>
-            <th>  </th>
-            <th>  </th>
-            
-          </tr> -->
-         
-            
-            <!-- <td>ГЦФ железа</td>
-            <td>ГЦФ кобальта</td>
-            <td>ГЦФ никеля</td>
-            <td>ГЦФ цинка</td>
-            <td>ГЦФ меди</td>
-            <td>ГЦФ марганца</td>
-            <td>ГЦФ хрома</td>
-            <td>ГЦФ кобальта</td>
-            <td>ГЦФ никеля</td>
-            <td> Плёнки ГЦФ</td>
-            <td> Прессование</td>
-            <td> Сенсорные свойства</td>
-            <td> Бинарные растворы (Fe-Co) </td>
-            <td> Бинарные растворы (др) </td>
-            <td> Тройные растворы </td> -->
-
             
 
           
         </table>
-<script>
-var tds = document.querySelectorAll('td');
 
-
-for (var i = 0; i < tds.length; i++)
-    tds[i].addEventListener('click', function func() {
-        var input = document.createElement('input');
-        input.value = this.innerHTML;
-        this.innerHTML = '';
-        this.appendChild(input);
-
-        var td = this;
-        input.addEventListener('blur', function() {
-            td.innerHTML = this.value;
-            td.addEventListener('click', func);
-
-        });
-
-        this.removeEventListener('click', func);
-
-        console.log("i")
-    });
-</script>
 
     </body>
 
