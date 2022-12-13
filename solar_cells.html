@@ -9,7 +9,7 @@
 
     <body>
 
-
+    <div id="particles-js">
 
         <table>
             
@@ -37,13 +37,26 @@
 
             </tbody>
 
-            
 
-            
+
+            <script src="particles.min.js"></script>
+
+            <script>
+
+                /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+
+
+                particlesJS.load('particles-js', 'particles.json', function() {
+                    console.log('callback - particles.js config loaded');
+                });
+
+            </script>
 
 
 
         </table>
+
+    </div>
 
     </body>
 

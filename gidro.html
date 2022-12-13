@@ -10,7 +10,7 @@
     <body>
 
 
-
+    <div id="particles-js">
         <table>
             
             <thead>
@@ -23,11 +23,25 @@
             <tr><td>Канифоль сосновая</td><td>-</td><td>-</td><td>данные</td></tr>
             <tr><td>Живица кедровая</td><td>-</td><td>-</td><td>данные</td></tr>
             </tbody>
-            
 
 
+            <script src="particles.min.js"></script>
+
+            <script>
+
+                /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+
+
+                particlesJS.load('particles-js', 'particles.json', function() {
+                    console.log('callback - particles.js config loaded');
+                });
+
+            </script>
 
         </table>
+
+
+    </div>
 
     </body>
 

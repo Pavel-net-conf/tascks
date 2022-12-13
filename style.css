@@ -1,4 +1,14 @@
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 body {
     margin: 0;
 }
@@ -10,14 +20,6 @@ a {
     color: blue;
 }
 
-
-/*table, th, td {
-    border: 1px solid black;
-    text-align: center;
-}
-table {
-    width:100%;
-}*/
 
 ul {
     padding: 5px;
@@ -74,7 +76,7 @@ li {
 }
 
 h1 {
-    position: ;
+
     text-align: center ;
 }
 
@@ -82,11 +84,10 @@ h1 {
     text-align: left;
 }
 
-/*
-li {
-    display: inline-block;
-}*/
-
+#particles-js {
+    height: 100vh;
+    background-color: #e74c3c;
+}
 
 
 

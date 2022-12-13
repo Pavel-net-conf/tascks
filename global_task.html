@@ -10,7 +10,7 @@
     <body>
 
 
-
+    <div id="particles-js">
         <table>
             
             <thead>
@@ -30,6 +30,22 @@
 
         </table>
 
+
+        <script src="particles.min.js"></script>
+
+        <script>
+
+            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+
+
+            particlesJS.load('particles-js', 'particles.json', function() {
+                console.log('callback - particles.js config loaded');
+            });
+
+        </script>
+
+
+    </div>
     </body>
 
 </html>

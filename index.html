@@ -7,6 +7,8 @@
     </head>
     <body>
 
+
+    <div id="particles-js">
         <h1>Список разрабатываемых проектов:</h1>
         <div class="wrapper">
         <ul>
@@ -20,10 +22,22 @@
 
         </ul>
         </div>
+    </div>
+    <script src="particles.min.js"></script>
+
+    <script>
+
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+
+
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+
+    </script>
 
 
 
-        
         
     </body>
 </html>
